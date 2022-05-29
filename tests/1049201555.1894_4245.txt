@@ -1,0 +1,47 @@
+Return-Path: <test@test.com>
+Delivered-To: em-ca-bruceg@em.ca
+Received: (qmail 1369 invoked from network); 1 Apr 2003 12:57:44 -0000
+Received: from agamemnon.bfsmedia.com (204.83.201.2)
+  by churchill.factcomp.com with SMTP; 1 Apr 2003 12:57:44 -0000
+Received: (qmail 32220 invoked from network); 1 Apr 2003 12:45:33 -0000
+Received: from unknown (HELO jnana) (220.71.26.142)
+  by agamemnon.bfsmedia.com with SMTP; 1 Apr 2003 12:45:29 -0000
+From: test<test@test.com>
+To: bruceg@em.ca
+Subject: (광고) 성인전문채팅
+Date: Tue, 1 Apr 2003 21:46:55 +0900
+Mime-Version: 1.0
+Content-Type: text/html; charset="euc-kr"
+Content-Length: 1682
+
+<html>
+
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=_autodetect_kr">
+<title>성인 화상채팅  조용히 들어오세여 !!</title>
+<meta name=generator content=Namo WebEditor v5.0>
+</head>
+
+<body bgcolor="#4E513E" text=black link=blue vlink=purple alink=red>
+<p align="center"><b><font size=4 color="white">성인 화상채팅 
+&nbsp;조용히 들어오세여 !!</font></b></p>
+<p align="center"><b><font size=4 color="white">성인 
+비밀 세상으로 들어 &nbsp;오시려면 아래 그림을 클릭하세요</font></b><a href="http://bimilclub.com" target="_blank"><font color="white" size="2"><img src="http://www.bimilclub.com/hongbo/460.jpg" width="529" height="396" border="0"></font></a></p>
+<table align="center" cellpadding="0" cellspacing="0" width="650">
+    <tr>
+        <td width="650"><p align="center"><SPAN 9pt><font color="white" size="2">▷&nbsp;원치않은 정보였다면 정중히 사과 드리며, 수신 거부를 해주시면 다음부터는 메일이 발송되지 않을 
+것입니다. <BR>▷&nbsp;If you do not wish to receive this email click 
+&quot;Unsubscribe&quot; button. </font></SPAN></p>
+        </td>
+    </tr>
+    <tr>
+        <td width="650"><p align="center"><SPAN 9pt><font color="white" size="2">사업자번호:</font></SPAN><font color="white" size="2">110-08-32159 
+ </font><SPAN 9pt><font color="white" size="2">&nbsp;연락처: </font></SPAN><font color="white" size="2">02)353-4088 
+            &nbsp;&nbsp;주소:서울시 은평구 불광동 484-158</font></p>
+        </td>
+    </tr>
+</table>
+<P align="center"><font color="white" size="2">[</font><a href="http://bimilclub.com/guboo/x_mail.htm" target="_blank"><font color="white" size="2">수신거부</font></a><font color="white" size="2">]</font></P>
+</body>
+
+</html>
