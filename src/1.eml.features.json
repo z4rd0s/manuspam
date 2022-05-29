@@ -1,0 +1,40 @@
+{
+  "Content_Transfer_Encoding_field": false,
+  "Content_Type": "text/plain",
+  "Received_SPF": "ok",
+  "DKIM": "non-existent",
+  "X_Mailer_exists": false,
+  "From_count_addresses": 1,
+  "From_header_missing": [
+    false
+  ],
+  "From_has_title": [
+    false
+  ],
+  "From_dn_exists": [
+    true
+  ],
+  "From_DN_whitespaces": [
+    1
+  ],
+  "FROM_DOMAIN_EQUAL_MESSAGEID_DOMAIN": [
+    false
+  ],
+  "FROM_DOMAIN_EQUAL_TO_DOMAIN": null,
+  "From_DN_has_nonascii": [
+    false
+  ],
+  "From_address_equal_to_address": null,
+  "From_address_equal_reply_address": [
+    true
+  ],
+  "From_DN_count_special_chars": [
+    2
+  ],
+  "Reply_TO_empty": true,
+  "Reply_TO_questionmark": false,
+  "To_count_addresses": 0,
+  "To_undisclosed": false,
+  "To_empty": false,
+  "BCC_count_recepients": 0
+}
