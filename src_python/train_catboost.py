@@ -20,8 +20,8 @@ def score(y_true, y_pred):
     print()
     print()
 
-ham = pd.read_csv("../src/ham.csv")
-spam = pd.read_csv("../src/spam.csv")
+ham = pd.read_csv("ham.csv")
+spam = pd.read_csv("spam.csv")
 
 dataset = pd.concat([ham, spam])
 dataset = dataset.sample(frac=1)#.reset_index(drop=True)
