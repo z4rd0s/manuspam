@@ -4,9 +4,6 @@ from sklearn.model_selection import train_test_split
 import sklearn
 from catboost import CatBoostClassifier, Pool
 
-def preprocess(df):
-    return df.drop_duplicates()
-
 def score(y_true, y_pred):
     print("Accuracy:", sklearn.metrics.accuracy_score(y_true, y_pred))
     print("Precision:", sklearn.metrics.precision_score(y_true, y_pred))
@@ -23,12 +20,12 @@ def score(y_true, y_pred):
     print()
     print()
 
-ham = preprocess(pd.read_csv("../src/ham.csv"))
-spam = preprocess(pd.read_csv("../src/spam.csv"))
+ham = pd.read_csv("../src/ham.csv")
+spam = pd.read_csv("../src/spam.csv")
 
 dataset = pd.concat([ham, spam])
 dataset = dataset.sample(frac=1)#.reset_index(drop=True)
-dataset.head()
+dataset = dataset.drop_duplicates()
 
 Y = dataset["Label"]
 X = dataset.drop(columns=["Label", "Fname"])
