@@ -14,5 +14,5 @@ pip install -r requirements.py
 ```
 source .venv/bin/activate
 cd src_python
-python train_catboost.py
+python train_models.py
 ```
