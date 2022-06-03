@@ -44,7 +44,8 @@ test_data = Pool(
     label = y_test
 )
 
-catboost_model = CatBoostClassifier(iterations=1000,learning_rate=1, depth=2, task_type="CPU")
+#catboost_model = CatBoostClassifier(iterations=1000,learning_rate=1, depth=2, task_type="CPU")
+catboost_model = CatBoostClassifier()
 catboost_model.fit(train_data, eval_set=test_data)
 
 print("catboost Train-Data Scores")
