@@ -3,6 +3,8 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 import sklearn
 from catboost import CatBoostClassifier, Pool
+from xgboost import XGBClassifier
+
 
 def score(y_true, y_pred):
     print("Accuracy:", sklearn.metrics.accuracy_score(y_true, y_pred))
@@ -42,13 +44,27 @@ test_data = Pool(
     label = y_test
 )
 
-model = CatBoostClassifier(iterations=1000,learning_rate=1, depth=2, task_type="CPU")
-model.fit(train_data, eval_set=test_data)
+catboost_model = CatBoostClassifier(iterations=1000,learning_rate=1, depth=2, task_type="CPU")
+catboost_model.fit(train_data, eval_set=test_data)
 
 print("catboost Train-Data Scores")
-preds_class = model.predict(train_data)
-score(Y_train, preds_class)
+catboost_preds_class = catboost_model.predict(train_data)
+score(Y_train, catboost_preds_class)
 
 print("catboost Test-Data Scores")
-preds_class = model.predict(test_data)
-score(y_test, preds_class)
+catboost_preds_class = catboost_model.predict(test_data)
+score(y_test, catboost_preds_class)
+
+
+xgboost_model = XGBClassifier()
+xgboost_model.fit(X_train, Y_train)
+
+print("catboost Train-Data Scores")
+xgboost_preds_class = xgboost_model.predict(X_train)
+score(Y_train, xgboost_preds_class)
+
+print("catboost Test-Data Scores")
+xgboost_preds_class = xgboost_model.predict(x_test)
+score(y_test, xgboost_preds_class)
+
+
